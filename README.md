@@ -2,7 +2,7 @@
 
 A Simple Application which uses an open API to collect all current COVID-19 cases, store them in firebase, iterate by country, and show graphical representations using Highcharts 
 
-Deployed Link: https://github.com/shaansundar/covid-dashboard
+Deployed Link: [https://covid-dashboard-shaansundar.vercel.app/](https://covid-dashboard-shaansundar.vercel.app/)
 
 ## Getting Started
 
