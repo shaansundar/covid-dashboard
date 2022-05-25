@@ -2,7 +2,7 @@
 
 A Simple Application which uses an open API to collect all current COVID-19 cases, store them in firebase, iterate by country, and show graphical representations using Highcharts 
 
-# Getting Started
+## Getting Started
 
 1. Clone package to system, and run:
 
