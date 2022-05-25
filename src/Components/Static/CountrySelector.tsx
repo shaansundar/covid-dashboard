@@ -5,12 +5,12 @@ import { atom, useRecoilState } from 'recoil';
 
 export const chosenCountry = atom({
     key: "country",
-    default: "",
+    default: [],
   });
 
 function CountrySelector() {
   const [value, setValue] = useRecoilState(chosenCountry);
-  const options = useMemo(() => countryList().getData(), [])
+  const options:any = useMemo(() => countryList().getData(), [])
 
   const changeHandler = (value: any) => {
     setValue(value)
