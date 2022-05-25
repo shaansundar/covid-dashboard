@@ -26,10 +26,10 @@ const dataListState = atom({
 });
 
 export default function Home() {
-  const [getdefaultData, setDefaultData] = useRecoilState(defaultDataListState);
+  const [getdefaultData, setDefaultData] = useRecoilState<any>(defaultDataListState);
   const [getchartData, setchartData] = useRecoilState(defaultChartListState);
   const [getlistData, setListData] = useRecoilState(dataListState);
-  const [Country, setChosenCountry] = useRecoilState(chosenCountry);
+  const [Country, setChosenCountry] = useRecoilState<any>(chosenCountry);
   const [value, loading, error] = useCollection(collection(db, "hooks"), {
     snapshotListenOptions: { includeMetadataChanges: true },
   });
