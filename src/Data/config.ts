@@ -1,9 +1,9 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyC_tiI4kP57GKsMG9GQhGjVb919FfdPhNk",
-  authDomain: "covid-tracker-notthatsundar.firebaseapp.com",
-  projectId: "covid-tracker-notthatsundar",
-  storageBucket: "covid-tracker-notthatsundar.appspot.com",
-  messagingSenderId: "122996749730",
-  appId: "1:122996749730:web:0be285e5034d6139636efb",
-  measurementId: "G-NFPSSCH1D6",
+  apiKey: "AIzaSyBHzkPW47tzdwyTBZ8dxF1egZTh_LHE0UQ",
+  authDomain: "covid-tracker-2-b7eaa.firebaseapp.com",
+  projectId: "covid-tracker-2-b7eaa",
+  storageBucket: "covid-tracker-2-b7eaa.appspot.com",
+  messagingSenderId: "501880370991",
+  appId: "1:501880370991:web:bc91e6696099dc70dc53da",
+  measurementId: "G-X9FEEYE90D"
 };
